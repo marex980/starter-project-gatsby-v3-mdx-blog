@@ -10,8 +10,13 @@ const Navbar = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <Link to='/' className='nav-logo'>
-            <img src={logo} alt=''></img>
+            <img src={logo} alt='mdx logo' />
           </Link>
+            <button className='toggle-btn'>
+              <FaBars />
+            </button>
+            <Links className='nav-links'/>
+            <SocialLinks className='nav-icons'/>
         </div>
       </div>
     </nav>
