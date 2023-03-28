@@ -16,8 +16,8 @@ const Navbar = () => {
               <FaBars />
             </button>
         </div>
-            <Links className='nav-links'/>
-            <SocialLinks className='nav-icons'/>
+            <Links styleClass='nav-links'/>
+            <SocialLinks styleClass='nav-icons'/>
       </div>
     </nav>
   )
