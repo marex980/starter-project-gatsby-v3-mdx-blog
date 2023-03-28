@@ -12,11 +12,14 @@ import Footer from './Footer'
 
 
 const Layout = ({ children }) => {
-  
+  const [isOpen, setIsOpen] = React.useState(false);
+  const toggle = () => {
+      setisOpen(!isOpen) 
+  }
   return (
     <>
-    <Navbar />
-    {/* <Sidebar /> */}
+    <Navbar toggle={toggle} />
+    <Sidebar isOpen={isOpen} toggle={toggle}/>
      <main>{children}</main>
      {/* <Footer /> */}
     </>
