@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa'
 import logo from '../assets/logo.svg'
 import Links from '../constants/links'
 import SocialLinks from '../constants/socialLinks'
-const Navbar = (toggle) => {
+const Navbar = ({toggle}) => {
   return (
     <nav className='navbar'>
       <div className='nav-center'>
