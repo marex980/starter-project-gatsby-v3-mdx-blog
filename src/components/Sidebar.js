@@ -8,8 +8,8 @@ const Sidebar = ({ isOpen, toggle }) => {
   return (
     // <aside className={`sidebar ${isOpen ? 'showSidebar' : ''}`}>
     //   <button className='close-btn' onClick={toggle}>
-      <aside className={`sidebar ${isOpen ? 'showSidebar' : ''}`}>
-        <button className="close-btn" onClick={toggle}>
+       <aside className={`sidebar ${isOpen ? 'showSidebar' : ''}`}>
+         <button className="close-btn" onClick={toggle}>
         <IoMdClose />
       </button>
       <div className='sidebar-container'>
